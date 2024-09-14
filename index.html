@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="./sankeyjs/echarts.min.js"></script>
+
+</head>
+<body >
+    <div id="66708c6198a7476a88c9ace7f639d664" class="chart-container" style="width:1500px; height:800px; "></div>
+    <script>
+        var chart_66708c6198a7476a88c9ace7f639d664 = echarts.init(
+            document.getElementById('66708c6198a7476a88c9ace7f639d664'), 'white', {renderer: 'canvas'});
+        var option_66708c6198a7476a88c9ace7f639d664 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "sankey",
+            "data": [
+                {
+                    "name": "Topic1(S1)",
+                    "value": 5.931768681148971,
+                    "itemStyle": {
+                        "color": "#c23531"
+                    }
+                },
+                {
+                    "name": "Topic2(S1)",
+                    "value": 5.582971919506001,
+                    "itemStyle": {
+                        "color": "#2f4554"
+                    }
+                },
+                {
+                    "name": "Topic3(S1)",
+                    "value": 3.8571031540138434,
+                    "itemStyle": {
+                        "color": "#61a0a8"
+                    }
+                },
+                {
+                    "name": "Topic4(S1)",
+                    "value": 10.0,
+                    "itemStyle": {
+                        "color": "#d48265"
+                    }
+                },
+                {
+                    "name": "Topic5(S1)",
+                    "value": 8.114563012258158,
+                    "itemStyle": {
+                        "color": "#749f83"
+                    }
+                },
+                {
+                    "name": "Topic6(S1)",
+                    "value": 4.301157677780522,
+                    "itemStyle": {
+                        "color": "#ca8622"
+                    }
+                },
+                {
+                    "name": "Topic1(S2)",
+                    "value": 4.678745430219288,
+                    "itemStyle": {
+                        "color": "#bda29a"
+                    }
+                },
+                {
+                    "name": "Topic2(S2)",
+                    "value": 4.340845379002421,
+                    "itemStyle": {
+                        "color": "#6e7074"
+                    }
+                },
+                {
+                    "name": "Topic3(S2)",
+                    "value": 4.865659544833373,
+                    "itemStyle": {
+                        "color": "#546570"
+                    }
+                },
+                {
+                    "name": "Topic4(S2)",
+                    "value": 5.295118693774191,
+                    "itemStyle": {
+                        "color": "#c4ccd3"
+                    }
+                },
+                {
+                    "name": "Topic5(S2)",
+                    "value": 6.35944383161343,
+                    "itemStyle": {
+                        "color": "#f05b72"
+                    }
+                },
+                {
+                    "name": "Topic6(S2)",
+                    "value": 2.398838485727773,
+                    "itemStyle": {
+                        "color": "#ef5b9c"
+                    }
+                },
+                {
+                    "name": "Topic1(S3)",
+                    "value": 3.3752839481187014,
+                    "itemStyle": {
+                        "color": "#f47920"
+                    }
+                },
+                {
+                    "name": "Topic2(S3)",
+                    "value": 2.210505972993965,
+                    "itemStyle": {
+                        "color": "#905a3d"
+                    }
+                },
+                {
+                    "name": "Topic3(S3)",
+                    "value": 4.387337333944947,
+                    "itemStyle": {
+                        "color": "#f05b72"
+                    }
+                },
+                {
+                    "name": "Topic4(S3)",
+                    "value": 3.056161823339523,
+                    "itemStyle": {
+                        "color": "#fab27b"
+                    }
+                },
+                {
+                    "name": "Topic5(S3)",
+                    "value": 3.364469576083776,
+                    "itemStyle": {
+                        "color": "#2a5caa"
+                    }
+                },
+                {
+                    "name": "Topic6(S3)",
+                    "value": 3.5142419163986096,
+                    "itemStyle": {
+                        "color": "#444693"
+                    }
+                }
+            ],
+            "links": [
+                {
+                    "source": "Topic1(S1)",
+                    "target": "Topic6(S2)",
+                    "value": 0.6246509469824674
+                },
+                {
+                    "source": "Topic6(S1)",
+                    "target": "Topic6(S2)",
+                    "value": 0.45593968662330503
+                },
+                {
+                    "source": "Topic1(S1)",
+                    "target": "Topic2(S2)",
+                    "value": 0.43628696681211276
+                },
+                {
+                    "source": "Topic4(S1)",
+                    "target": "Topic2(S2)",
+                    "value": 0.4078008253641849
+                },
+                {
+                    "source": "Topic4(S1)",
+                    "target": "Topic6(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic6(S1)",
+                    "target": "Topic5(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic1(S1)",
+                    "target": "Topic5(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic6(S1)",
+                    "target": "Topic2(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic3(S1)",
+                    "target": "Topic2(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic1(S1)",
+                    "target": "Topic4(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic4(S1)",
+                    "target": "Topic5(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic3(S1)",
+                    "target": "Topic6(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic6(S1)",
+                    "target": "Topic4(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic2(S1)",
+                    "target": "Topic6(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic3(S1)",
+                    "target": "Topic5(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic5(S1)",
+                    "target": "Topic6(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic6(S1)",
+                    "target": "Topic3(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic1(S1)",
+                    "target": "Topic3(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic5(S1)",
+                    "target": "Topic2(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic2(S1)",
+                    "target": "Topic2(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic3(S1)",
+                    "target": "Topic4(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic5(S1)",
+                    "target": "Topic5(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic4(S1)",
+                    "target": "Topic4(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic4(S1)",
+                    "target": "Topic3(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic2(S1)",
+                    "target": "Topic3(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic3(S1)",
+                    "target": "Topic3(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic2(S1)",
+                    "target": "Topic5(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic5(S1)",
+                    "target": "Topic4(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic5(S1)",
+                    "target": "Topic3(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic6(S1)",
+                    "target": "Topic1(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic2(S1)",
+                    "target": "Topic4(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic4(S1)",
+                    "target": "Topic1(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic1(S1)",
+                    "target": "Topic1(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic2(S1)",
+                    "target": "Topic1(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic5(S1)",
+                    "target": "Topic1(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic3(S1)",
+                    "target": "Topic1(S2)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic5(S2)",
+                    "target": "Topic3(S3)",
+                    "value": 0.7910965668527069
+                },
+                {
+                    "source": "Topic4(S2)",
+                    "target": "Topic3(S3)",
+                    "value": 0.7494790396733345
+                },
+                {
+                    "source": "Topic3(S2)",
+                    "target": "Topic3(S3)",
+                    "value": 0.7386246318089067
+                },
+                {
+                    "source": "Topic5(S2)",
+                    "target": "Topic6(S3)",
+                    "value": 0.6416577682682532
+                },
+                {
+                    "source": "Topic2(S2)",
+                    "target": "Topic3(S3)",
+                    "value": 0.641518848552909
+                },
+                {
+                    "source": "Topic5(S2)",
+                    "target": "Topic1(S3)",
+                    "value": 0.6144829865056628
+                },
+                {
+                    "source": "Topic4(S2)",
+                    "target": "Topic6(S3)",
+                    "value": 0.5659267736323879
+                },
+                {
+                    "source": "Topic5(S2)",
+                    "target": "Topic4(S3)",
+                    "value": 0.5626848541790889
+                },
+                {
+                    "source": "Topic3(S2)",
+                    "target": "Topic6(S3)",
+                    "value": 0.5561338573201218
+                },
+                {
+                    "source": "Topic2(S2)",
+                    "target": "Topic6(S3)",
+                    "value": 0.5448895811689264
+                },
+                {
+                    "source": "Topic3(S2)",
+                    "target": "Topic1(S3)",
+                    "value": 0.5432219893319231
+                },
+                {
+                    "source": "Topic5(S2)",
+                    "target": "Topic5(S3)",
+                    "value": 0.5422297238705615
+                },
+                {
+                    "source": "Topic2(S2)",
+                    "target": "Topic4(S3)",
+                    "value": 0.5399333319365862
+                },
+                {
+                    "source": "Topic2(S2)",
+                    "target": "Topic1(S3)",
+                    "value": 0.5233237484051612
+                },
+                {
+                    "source": "Topic4(S2)",
+                    "target": "Topic5(S3)",
+                    "value": 0.5211917298087176
+                },
+                {
+                    "source": "Topic4(S2)",
+                    "target": "Topic1(S3)",
+                    "value": 0.5211517457862775
+                },
+                {
+                    "source": "Topic4(S2)",
+                    "target": "Topic4(S3)",
+                    "value": 0.4885363221185109
+                },
+                {
+                    "source": "Topic3(S2)",
+                    "target": "Topic4(S3)",
+                    "value": 0.4830795893375297
+                },
+                {
+                    "source": "Topic2(S2)",
+                    "target": "Topic5(S3)",
+                    "value": 0.4720420535151908
+                },
+                {
+                    "source": "Topic3(S2)",
+                    "target": "Topic5(S3)",
+                    "value": 0.4363793986191594
+                },
+                {
+                    "source": "Topic6(S2)",
+                    "target": "Topic5(S3)",
+                    "value": 0.4142351826845226
+                },
+                {
+                    "source": "Topic5(S2)",
+                    "target": "Topic2(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic6(S2)",
+                    "target": "Topic4(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic4(S2)",
+                    "target": "Topic2(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic1(S2)",
+                    "target": "Topic4(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic6(S2)",
+                    "target": "Topic6(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic1(S2)",
+                    "target": "Topic5(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic2(S2)",
+                    "target": "Topic2(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic3(S2)",
+                    "target": "Topic2(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic6(S2)",
+                    "target": "Topic3(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic1(S2)",
+                    "target": "Topic1(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic1(S2)",
+                    "target": "Topic6(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic6(S2)",
+                    "target": "Topic1(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic6(S2)",
+                    "target": "Topic2(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic1(S2)",
+                    "target": "Topic3(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                },
+                {
+                    "source": "Topic1(S2)",
+                    "target": "Topic2(S3)",
+                    "value": 0.001,
+                    "lineStyle": {
+                        "opacity": 0
+                    }
+                }
+            ],
+            "left": "5%",
+            "top": "5%",
+            "right": "20%",
+            "bottom": "5%",
+            "nodeWidth": 20,
+            "nodeGap": 8,
+            "nodeAlign": "justify",
+            "orient": "horizontal",
+            "draggable": true,
+            "label": {
+                "show": true,
+                "position": "right",
+                "color": "#000000",
+                "margin": 8,
+                "fontSize": 18.0,
+                "fontFamily": "sans-serif"
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 0.5,
+                "curveness": 0.5,
+                "type": "solid",
+                "color": "source"
+            },
+            "itemStyle": {
+                "borderColor": "#aaa",
+                "borderWidth": 0.5,
+                "opacity": 0.5
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ]
+};
+        chart_66708c6198a7476a88c9ace7f639d664.setOption(option_66708c6198a7476a88c9ace7f639d664);
+    </script>
+</body>
+</html>
